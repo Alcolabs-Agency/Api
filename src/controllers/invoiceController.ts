@@ -1,7 +1,7 @@
 import { Request, Response } from "express"
-import { Invoice } from "../models/Invoice"
 
 
+/* 
 export const getInvoiceById = async (req: Request, res: Response): Promise<void> => {
     const { id } = req.params;
 
@@ -31,4 +31,4 @@ export const newInvoice = async (req: Request, res: Response) =>{
     } catch (error) {
         res.status(500).json({message: 'Error saving invoice', error})
     }
-}
+} */
